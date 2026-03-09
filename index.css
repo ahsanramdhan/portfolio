@@ -1,0 +1,104 @@
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:linear-gradient(to bottom,#650000bf,#480000bf,#000000bf);
+  background-repeat:no-repeat;
+  min-height:200vh;
+  font-family:Arial, sans-serif;
+}
+
+.judul{
+  color:black;
+  text-align:center;
+  font-size:50px;
+}
+
+nav{
+  background-color:black;
+  width:100%;
+  height:70px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:50px;
+  top:0;
+  position:sticky;
+}
+
+nav a{
+  background-color:#960000bf;
+  color:white;
+  text-decoration:none;
+  padding:10px 25px;
+  border-radius:30px;
+  transition:0.3s ease;
+  font-weight:bold;
+}
+
+nav a:hover{
+  background-color:#ff0000;
+  transform:scale(1.1);
+  box-shadow:0 0 15px red;
+}
+
+nav a:active{
+  transform:scale(0.95);
+}
+
+.card{
+  color:white;
+  background-color:#000000cd;
+  width:90%;
+  max-width:600px;
+  margin:80px auto;
+  padding:20px;
+  border-radius:10px;
+
+  display:flex;              
+  align-items:center;       
+  gap:20px; 
+  box-shadow:10px 25px 20px rgba(0,0,0,0.6);
+}
+
+.self_img{
+  width:30%;
+  border-radius:10px;
+}
+
+.project{
+  color:white;
+  background-color:#000000cd;
+  width:96%;
+  height:80vh;
+  text-align:center;
+  padding:10px;
+  font-size:20px;
+}
+
+img{
+  width:10%;
+  border-radius:10px;
+}
+
+.plat{
+  color:white;
+  background-color:#000000b4;
+  margin:20px auto;
+  width:80%;
+  max-width:400px;
+  border-radius:10px;
+  display:flex;
+  justify-content:left;
+  align-items:center;
+  gap:50px;
+  box-shadow:10px 15px 20px rgba(0,0,0,0.7);
+}
+
+.terimakasih{
+  text-align:center;
+  font-size:50px;
+  margin:100px;
+}
